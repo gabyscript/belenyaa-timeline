@@ -26,20 +26,19 @@ const TimeLine = () => {
     
 
     return (
-        <div style={{width: '90vw'}}>
+        <div style={{width: "95vw", height: "600px"  }}>
             {items.length > 0 ? (
                 <Chrono
                     items={items}
-                    mode="VERTICAL_ALTERNATING"
                     slideShow
                     slideItemDuration={4500}
-                    slideShowType="reveal"
+                    scrollable={{ scrollbar: true }}
                     theme={{
-                        primary: 'red',
-                        secondary: 'blue',
-                        cardBgColor: 'yellow',
-                        titleColor: 'black',
-                        titleColorActive: 'red',
+                        primary: '#112211',
+                        secondary: '#b39edb',
+                        cardBgColor: '#665c84',
+                        titleColor: '#323232',
+                        titleColorActive: '#323232',
                     }}
                 />
             ) : (

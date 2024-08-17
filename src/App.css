@@ -5,3 +5,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.rc-card-title {
+  color: #000000 !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.timeline-horz-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
