@@ -6,25 +6,15 @@
   display: none !important;
 }
 
-/* BARRA */
-.hxLLRt {
-  display: none !important;
-  height: 55px !important;
-  /*display: flex;*/
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  backdrop-filter: blur(8px); 
-  border-top:  1px solid rgba(255,255,255,0.3);
-  border-left: 1px solid rgba(255,255,255,0.3);
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
 /*FECHA*/
 .cXkBjC {
   background-color: antiquewhite !important;
+}
+
+/*Barra*/
+
+.ToolbarWrapper-sc-exupb5-0 {
+  display: none !important;
 }
 
 /*Card header*/

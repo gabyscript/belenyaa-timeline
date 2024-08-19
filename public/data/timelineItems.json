@@ -174,7 +174,7 @@
     "media": {
       "type": "IMAGE",
       "source": {
-        "url": "../src/assets/images/streamer-revelacion.jpg"
+        "url": "/src/assets/images/streamer-revelacion.jpg"
       }
     }
   },

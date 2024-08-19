@@ -40,6 +40,7 @@ const TimeLine = () => {
                         mediaHeight={400} 
                         contentDetailsHeight={80}
                         mode="VERTICAL_ALTERNATING"
+                        hideControls
                         slideShow
                         slideItemDuration={4500}
                         scrollable={{ scrollbar: true }}
