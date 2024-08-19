@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './pages/HomePage.jsx'
 import TimeLinePage from './pages/TimeLinePage.jsx'
 import NyaatoPage from './pages/NyaatoPage.jsx'
+import RecapPage from './pages/RecapPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/timeline",
     element: <TimeLinePage />
+  },
+  {
+    path: "/recap",
+    element: <RecapPage />
   },
   {
     path: "/nyaato",

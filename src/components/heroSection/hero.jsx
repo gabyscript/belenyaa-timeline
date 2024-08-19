@@ -20,15 +20,12 @@ const Hero = () => {
             </Container>
             <Container className="d-flex flex-column justify-content-center align-items-center gap-3">
                 <Button variant="info">
-                    <Link to="/timeline" className="text-white" style={{textDecoration: 'none'}}>     
+                    <Link to="/recap" className="text-white" style={{textDecoration: 'none'}}>     
                         <strong style={{textDecoration: 'none'}}>                                    
                             Sorprendete 🥳
                         </strong>       
                     </Link>
                 </Button>
-            </Container>
-            <Container className="mt-5">
-               <Countdown targetDate="2024-10-11T00:00:00" /> 
             </Container>
         </Container>
         
