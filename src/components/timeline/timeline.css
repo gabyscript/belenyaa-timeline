@@ -1,0 +1,75 @@
+.timeline-container{
+  background-color: #fbd6f8 !important;
+}
+
+.TriangleIconWrapper-sc-d7qjm1-11  {
+  display: none !important;
+}
+
+/* BARRA */
+.hxLLRt {
+  display: none !important;
+  height: 55px !important;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(8px); 
+  border-top:  1px solid rgba(255,255,255,0.3);
+  border-left: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/*FECHA*/
+.cXkBjC {
+  background-color: antiquewhite !important;
+}
+
+/*Card header*/
+
+.bzKFtd {
+  width: 100% !important;
+}
+
+.coGqTS {
+  width: 100% !important;
+}
+
+.jSOuST  {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.jaQaOm {
+  text-align: center !important;
+}
+
+.rc-card-title {
+  color: #000000 !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.dEAkIe {
+  background-color: rgba(62, 9, 239, 0.2);
+  backdrop-filter: blur(8px); 
+  border-top:  1px solid rgba(255,255,255,0.3);
+  border-left: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 10px; 
+}
+
+.card-content-wrapper .timeline-card-content{
+  position: relative;
+  background: linear-gradient(135deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(8px); 
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+  border-radius: 20px; 
+  overflow: hidden !important;
+}
+
+

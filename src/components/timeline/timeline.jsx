@@ -1,5 +1,7 @@
 import { Chrono } from "react-chrono"
 import { useEffect, useState } from "react";
+import { Container } from "react-bootstrap";
+import './timeline.css'
 
 const TimeLine = () => {
 
@@ -23,28 +25,37 @@ const TimeLine = () => {
         fetchItems();
     }, [])
 
-    
-
     return (
-        <div style={{width: "95vw", height: "600px"  }}>
-            {items.length > 0 ? (
-                <Chrono
-                    items={items}
-                    slideShow
-                    slideItemDuration={4500}
-                    scrollable={{ scrollbar: true }}
-                    theme={{
-                        primary: '#112211',
-                        secondary: '#b39edb',
-                        cardBgColor: '#665c84',
-                        titleColor: '#323232',
-                        titleColorActive: '#323232',
-                    }}
-                />
-            ) : (
-                <p>Loading...</p>
-            )}
-        </div>
+        <Container className="timeline-container py-4" fluid>
+            <Container className="d-flex flex-column">
+                <h2 className="text-center">
+                    Tu historia en Twitch uwu
+                </h2>
+            </Container>  
+            <Container className="overflow-auto">
+                {items.length > 0 ? (
+                    <Chrono
+                        items={items}
+                        cardHeight={550} 
+                        mediaHeight={400} 
+                        contentDetailsHeight={80}
+                        mode="VERTICAL_ALTERNATING"
+                        slideShow
+                        slideItemDuration={4500}
+                        scrollable={{ scrollbar: true }}
+                        theme={{
+                            primary: '#112211',
+                            secondary: '#b39edb',
+                            cardBgColor: '#665c84',
+                            titleColor: '#323232',
+                            titleColorActive: '#323232',
+                        }}
+                    />
+                ) : (
+                    <p>Loading...</p>
+                )}
+            </Container>
+        </Container>
     )
 }
 

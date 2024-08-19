@@ -1,7 +1,7 @@
 [{
     "title": "14 de Marzo del 2021",
     "cardTitle": "El primer stream uwu",
-    "cardSubtitle":"Aquí partio todo bubububu ",
+    "cardSubtitle":"Aquí partio todo",
     "cardDetailedText": "No se que poner acá no estaba vivo en ese entonces, debio haber sido bonito uwu",
     "media": {
       "type": "IMAGE",
@@ -12,7 +12,7 @@
   },
   {
     "title": "20 de Marzo del 2021",
-    "cardTitle": "Se logro el afiliado GG WP EZ PIZZY",
+    "cardTitle": "Afiliado 😎",
     "cardSubtitle":"INSERTE TEXTO",
     "cardDetailedText": "No se que poner acá no estaba vivo en ese entonces, debio haber sido bonito uwu",
     "media": {
@@ -64,9 +64,9 @@
     "cardSubtitle":"SE LOGRO EL PARTNER LETSGOOO MADAFAKAS AAA",
     "cardDetailedText": "Acá en vola podria ir su videito o sus mensajitos, que se yo",
     "media": {
-      "type": "IMAGE",
+      "type": "VIDEO",
       "source": {
-        "url": "https://cdn.7tv.app/emote/6676131d180087fd48c29671/4x.webp"
+        "url": "https://www.twitch.tv/belenyaa/clip/PolishedKitschyGnatBatChest-N_kZGORS8IJ4Q_24?filter=clips&range=all&sort=time"
       }
     }
   },
@@ -169,12 +169,12 @@
   {
     "title": "21 de marzo del 2024",
     "cardTitle": "Premio streamer revelacion",
-    "cardSubtitle":"Inserte texto aca",
+    "cardSubtitle":"Después de tanto tiempo el meme se hizo realidad",
     "cardDetailedText": "Pongan las fotitos y los clips uwu",
     "media": {
       "type": "IMAGE",
       "source": {
-        "url": "https://cdn.7tv.app/emote/6676131d180087fd48c29671/4x.webp"
+        "url": "../src/assets/images/streamer-revelacion.jpg"
       }
     }
   },
