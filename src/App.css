@@ -45,3 +45,8 @@
 .nyaato-container{
   background-color: #fbd6f8 !important;
 }
+
+.twitch-video {
+  width: 65vw;
+  border-radius: 15px;
+}
