@@ -6,16 +6,16 @@ import './affiliate.css'
 const Affiliate = () => {
     return (
         <Container className="d-flex flex-column justify-content-center align-items-center min-vh-100 background" >
-            <Container className="d-flex flex-column justify-content-center align-items-center">
-                <Container className="d-flex flex-column justify-content-center">
-                    <h4 className="text-white text-center neon">
+            <Container className="d-flex flex-column justify-content-center align-items-center  py-5">
+                <Container className="d-flex flex-column justify-content-center home-container w-50 py-3">
+                    <h1 className="text-white text-center neon">
                         23/03/2021
-                    </h4>
-                    <h4 className="text-white text-center neon">
+                    </h1>
+                    <h1 className="text-white text-center neon">
                         Afiliado
-                    </h4>
+                    </h1>
                 </Container> 
-                <Container className="d-flex flex-row justify-content-center">
+                <Container className="d-flex flex-row justify-content-center py-5">
                     <Image src={belenyAffiliate}
                     className="belenya-affiliate-img"  />
                 </Container>           

@@ -1,5 +1,5 @@
 .neon {
-    color: rgb(228, 221, 227) !important;
+    color: rgb(255, 255, 255)!important;
     text-shadow:
       0 0 7px rgba(231, 23, 190, 0.8),
       0 0 10px rgba(231, 23, 190, 0.6),
@@ -15,5 +15,4 @@
   background-image: url(../../assets/images/desenfocao.webp);
   background-position: 50% 0;
   background-size: cover;
-  background-repeat: none;
 }

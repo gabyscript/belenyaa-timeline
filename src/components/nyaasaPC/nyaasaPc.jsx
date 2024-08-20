@@ -5,8 +5,8 @@ import './nyaasaPC.css'
 const NyaasaPc  = () => {
     return (
         <Container className="d-flex flex-column justify-content-center align-items-center min-vh-100 background">
-            <Container className="d-flex flex-column justify-content-center align-items-center min-vh-100 demo-content" >
-                <Container className="pb-3 d-flex flex-column">
+            <Container className="d-flex flex-column justify-content-center align-items-center min-vh-100" >
+                <Container className="py-1 mb-2 d-flex flex-column w-50 home-container">
                     <h5 className="text-white text-center neon">
                         24/06/2021
                     </h5>

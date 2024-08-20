@@ -6,7 +6,7 @@ import TwitchVideos from "../twitchVideos/twitchVideos"
 
 const FourthExtensible = () => {
     return (
-        <Container className="min-vh-100 background">
+        <Container className="min-vh-100" fluid>
             <TwitchVideos videoPath={Siu} 
             date={"26/07/2024"} title={"Último extensible FeelsCalmMan"} />
         </Container>

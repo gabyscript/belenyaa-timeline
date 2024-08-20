@@ -41,6 +41,9 @@
   overflow: hidden !important;
 }
 
+.ig-video {
+  height: 70vh;
+}
 
 .nyaato-container{
   background-color: #fbd6f8 !important;

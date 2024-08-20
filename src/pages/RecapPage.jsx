@@ -10,6 +10,14 @@ import SecondExtensible from "../components/secondExtensible/secondExtensible"
 import Partner from "../components/partner/partner"
 import Dnite from "../components/dnite/dnite"
 import FirstMovistar from "../components/firstMovistar/firstMovistar"
+import FirstBan from "../components/firstBan/firstBan"
+import Special from "../components/special10k/special"
+import FirstDrawing from "../components/firstDrawingContest/firstDrawingContest"
+import SecondMovistar from "../components/secondMovistar/secondMovistar"
+import RelevationStreamer from "../components/revelationStreamer/revelationStreamer"
+import SecondDrawingConstest from "../components/secondDrawingContest/secondDrawingContest"
+import JapanTrip from "../components/japanTrip/japanTrip"
+import PinkHair from "../components/pinkHair/pinkHair"
 
 
 const RecapPage = () => {
@@ -43,15 +51,34 @@ const RecapPage = () => {
                    <Partner />
                 </Carousel.Item>
                 <Carousel.Item>
+                   <Special />
+                </Carousel.Item>
+                <Carousel.Item>
                     <FirstMovistar />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <h2 className="text-white min-vh-100">
-                        1er Concurso de dibujo
-                    </h2>
+                    <FirstDrawing />
                 </Carousel.Item>
                 <Carousel.Item>
                     <Dnite />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <FirstBan />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <SecondMovistar />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <JapanTrip />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <PinkHair />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <RelevationStreamer />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <SecondDrawingConstest />
                 </Carousel.Item>
                 <Carousel.Item>
                     <FourthExtensible />
