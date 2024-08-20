@@ -1,11 +1,11 @@
 import { Container } from "react-bootstrap"
-import belenyUwa from '../../assets/videos/belenyUwaNyaatos.mp4'
+import belenyPremio from '../../assets/videos/belenyPremio.mp4'
 import TwitchVideos from "../twitchVideos/twitchVideos"
 
 const RelevationStreamer = () => {
     return (
         <Container className="min-vh-100">
-            <TwitchVideos videoPath={belenyUwa} 
+            <TwitchVideos videoPath={belenyPremio} 
             date={"21/03/2024"} title={"Streamer Revelacion 😎"} />
         </Container>
     )
