@@ -5,8 +5,8 @@ import TwitchVideos from "../twitchVideos/twitchVideos"
 const RelevationStreamer = () => {
     return (
         <Container className="min-vh-100">
-            <TwitchVideos videoPath={"https://www.youtube.com/watch?v=sH_LzliSSiA&feature=youtu.be"} 
-            date={"21/03/2024"} title={"Streamer Revelacion 😎"} />
+            <TwitchVideos videoPath={belenyPremio} 
+            date={"21/03/2024"} title={"Streamer Revelación 😎"} />
         </Container>
     )
 }

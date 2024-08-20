@@ -45,7 +45,7 @@ const Stats = () => {
                             6
                         </h3>
                         <h4 className="text-white text-center label">
-                            Generacion Nyaatitos
+                            Generación Nyaatitos
                         </h4>
                     </Container>
                 </Container>
