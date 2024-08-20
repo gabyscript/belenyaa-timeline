@@ -18,6 +18,10 @@ import RelevationStreamer from "../components/revelationStreamer/revelationStrea
 import SecondDrawingConstest from "../components/secondDrawingContest/secondDrawingContest"
 import JapanTrip from "../components/japanTrip/japanTrip"
 import PinkHair from "../components/pinkHair/pinkHair"
+import FirstExtensible from "../components/firstExtensible/firstExtensible"
+import Operation from "../components/operation/operation"
+import Ending from "../components/ending/ending"
+import ThirdExtensible from "../components/thirdExtensible/thirdExtensible"
 
 
 const RecapPage = () => {
@@ -37,9 +41,7 @@ const RecapPage = () => {
                    <Affiliate />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <h2>
-                        Primer extensible
-                    </h2>
+                    <FirstExtensible />
                 </Carousel.Item>
                 <Carousel.Item>
                    <NyaasaPc />
@@ -69,7 +71,13 @@ const RecapPage = () => {
                     <SecondMovistar />
                 </Carousel.Item>
                 <Carousel.Item>
+                    <ThirdExtensible />
+                </Carousel.Item>
+                <Carousel.Item>
                     <JapanTrip />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Operation />
                 </Carousel.Item>
                 <Carousel.Item>
                     <PinkHair />
@@ -82,6 +90,9 @@ const RecapPage = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <FourthExtensible />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Ending />
                 </Carousel.Item>
                 <Carousel.Item>
                    <Countdown targetDate={'2024-10-11'}/>
