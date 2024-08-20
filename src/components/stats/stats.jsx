@@ -48,15 +48,6 @@ const Stats = () => {
                             Generacion Nyaatitos
                         </h4>
                     </Container>
-                    <Container className="d-flex flex-column px-4">
-                        <h3 className="text-white text-center numbers">
-                            1
-                        </h3>
-                        <h4 className="text-white text-center label">
-                            Traidor
-                            ExNyaa
-                        </h4>
-                    </Container>
                 </Container>
                 
             </Container>
